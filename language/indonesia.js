@@ -14,7 +14,7 @@ exports.getStyle = (style, style2) => {
 }
 exports.wait = "`⏳ Mohon tunggu sebentar`"
 exports.ok = `Done ✅`
-exports.menu = async (alpha, pushname, OWNER_NAME, OWNER, prefix, hitall, latensii, os, simple, week, date, dateIslamic, username, isCreator, user_id) => {
+exports.menu = async (alpha, thumbnail, pushname, OWNER_NAME, OWNER, prefix, hitall, latensii, os, simple, week, date, dateIslamic, username, isCreator, user_id) => {
     var ini_anu = `Hi ${pushname}
 
 ╭─❒ 「 Bot Info 」 
@@ -259,4 +259,3 @@ exports.cecancmd = async (alpha, thumbnail, user_id) => {
             inline_keyboard: button
         }
     })
-}
